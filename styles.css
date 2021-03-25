@@ -1,47 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:display=swap");
 
 .alignCenter {
-  text-align: center;
+    text-align: center;
 }
 
 .subHeading {
-  font-size: large;
-  font-weight: 600;
+    font-size: large;
+    font-weight: 600;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+.left,
+.right {
+    width: 20%;
+}
+
+.middle {
+    width: 60%;
+}
+
+#copy {
+    font-weight: bolder;
+}
+
+#invisible {
+  visibility: hidden;
 }
 
 header {
-  text-align: center;
-  width: 100%;
-  display: inline-block;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
 }
 footer {
-  text-align: center;
-  width: 100%;
-  display: inline-block;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
 }
 
 body,
 html {
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 1%;
-  margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 h1 {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  font-size: x-large;
-  font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: x-large;
+    font-weight: 800;
 }
 
 p {
-  font-weight: 200;
-  margin-bottom: 16px;
+    font-weight: 200;
+    margin-bottom: 16px;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 16px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
